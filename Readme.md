@@ -26,3 +26,10 @@ box-shadow: 0 12px 32px rgb(0 0 0 / 6%);
 ## For existing project:
 
 1. git clone https://github.com/iamtejaswini380/omnifood.git
+
+## For further working on same project:
+
+1. After you make any changes, you will see M in vscode for the modified files.
+2. To add modified files: git add ., the M symbol will still show up , until you commit.
+3. To commit use : git commit -m <message>
+4. Push the change to remote repository on github: git push OR git push origin <branch_name>
