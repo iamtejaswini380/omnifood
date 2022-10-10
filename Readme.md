@@ -40,3 +40,15 @@ Branching:
 2. You can create a branch with: git branch <branchname> , branch name should not have space and give a meaning ful short name
 3. To see list of branches: git branch , here in the list the one which has the \* at the left the current branch that you are in.
 4. To go to the created branch: git checkout <branchname>
+5. git add . then git commit -m <message> to commit your changes locally
+6. To push your chages as the same branch doest not exist in remote, you need to run: git push origin <branchname>
+7. Now if you make any changes in future on the same branch then you can simply write: git push as the origin already exit.
+
+8. Deleting a branch: git branch -D <branchname> <- this will delete it locally, then to delete remote you can use github UI.
+9. If you want to delete from both local and remote at once the use: git push -d <local_branch_name> <remote_brancname> , mostly both will be same.
+10. To always sync with remove,
+
+- run git pull <- to fetch all files from remote and
+- git push <-- to push your commits to remote.
+
+Note: a push can have one or more commits and a branch can have multiple push with commits.
