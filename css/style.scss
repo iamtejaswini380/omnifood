@@ -1,0 +1,637 @@
+$white: #ffffff;
+$dark-charcol: #333333;
+$davys-gray: #555555;
+$taupe-gray: #888888;
+$dark-silver: #6f6f6f;
+$gray: #ddd;
+$get: #43240a;
+$orange: #cf711f;
+$green: #51cf66;
+$light-green: #94d82d;
+$yellow: #ffd43b;
+$orange-light: #e67e22;
+$bg-primay: #fdf2e9;
+$light-grey: #45260a;
+$silver: #767676;
+
+$font-4xl: 8.6rem;
+$font-3xl: 50px;
+$font-2xl: 3.6rem;
+$font-xl: 24px;
+$font-l: 2rem;
+$font-m: 18px;
+$fonr-s: 1.6rem;
+$fonr-xs: 1.4rem;
+$fonr-2xs: 12px;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 38px 45px 45px 45px;
+  background-color: $bg-primay;
+  position: fixed;
+  z-index: 9999;
+  &--light {
+    background-color: rgba(255, 255, 255, 0.97);
+  }
+  .menu {
+    &__items {
+      display: inline-block;
+      padding: 0 20px;
+    }
+    &__links {
+      text-decoration: none;
+      color: $dark-charcol;
+      font-weight: 550;
+      transition: all 0.3s;
+      font-size: $font-m;
+      &:hover {
+        color: $orange;
+      }
+    }
+    &__btn {
+      color: $white;
+      background-color: $orange-light;
+      padding: 12px 24px;
+      border-radius: 9px;
+      &:hover {
+        background-color: $orange;
+        color: $white;
+      }
+    }
+  }
+}
+
+.hero__section {
+  background-color: $bg-primay;
+  padding: 100px 0px 90px 10px;
+  .hero {
+    margin: 0 auto;
+    display: grid;
+    padding: 0px 130px;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 130px;
+    &__title {
+      padding: 40px 0px 40px 0px;
+      font-size: $font-3xl;
+      font-weight: 700;
+      color: $dark-charcol;
+    }
+    &__para {
+      font-size: 20px;
+      margin-bottom: 76px;
+      line-height: 1.6;
+      color: $davys-gray;
+    }
+    &__link-one {
+      padding: 16px 32px;
+      background-color: $orange-light;
+      color: $white;
+      font-size: 20px;
+      border-radius: 9px;
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: 600;
+      font-family: inherit;
+      &:hover {
+        background-color: $orange;
+      }
+    }
+    &__link-two {
+      padding: 16px 32px;
+      background-color: $white;
+      color: $davys-gray;
+      font-size: 20px;
+      border-radius: 9px;
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: 600;
+      font-family: inherit;
+      border: 2px solid $white;
+      &:hover {
+        background-color: $bg-primay;
+      }
+    }
+  }
+}
+
+.custumers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 90px;
+  &__pics {
+    display: flex;
+    img {
+      border-radius: 50%;
+      margin-right: -10px;
+    }
+  }
+  &__text {
+    font-size: 18px;
+    color: $davys-gray;
+    font-weight: 600;
+    & span {
+      color: $orange;
+    }
+  }
+}
+
+.feature {
+  &__section {
+    padding-top: 30px;
+    margin: 0px 150px;
+  }
+  &__container {
+    margin: 0px auto;
+    padding: 20px 0px 130px 0px;
+  }
+  &__heading {
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: $taupe-gray;
+  }
+  &__logos {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__img {
+    height: 30px;
+    filter: brightness(0);
+    opacity: 50%;
+  }
+}
+
+.how {
+  &__section {
+    padding: 0px 160px;
+  }
+  &__heading {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    letter-spacing: 0.75px;
+  }
+  &__subheading {
+    font-size: 45px;
+    line-height: 1;
+    margin-bottom: 100px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 120px;
+    row-gap: 120px;
+  }
+  &__steps {
+    font-size: 100px;
+    font-weight: 600;
+    color: $gray;
+    margin-bottom: 18px;
+  }
+  &__tertiaryheading {
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 50px;
+    color: $dark-charcol;
+  }
+  &__paragraph {
+    font-size: 19px;
+    color: $davys-gray;
+    line-height: 1.2;
+  }
+  &__imgbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.meal {
+  &__section {
+    padding: 190px 170px 0px 170px;
+  }
+  &__container {
+    text-align: center;
+  }
+  &__heading {
+    display: block;
+    font-size: 16px;
+    color: $orange;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+    letter-spacing: 0.75px;
+  }
+  &__subheading {
+    margin-bottom: 106px;
+    font-size: 44px;
+    color: $dark-charcol;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 90px;
+  }
+  &__img {
+    box-shadow: 0 38px 77px rgb(0 0 0 / 8%);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+  &__content {
+    padding: 32px 48px 48px 48px;
+  }
+  &__tag {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    column-gap: 4px;
+    border-radius: 100px;
+  }
+  &__title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 32px;
+  }
+  &__vegitarian {
+    color: $dark-charcol;
+    padding: 4px 8px;
+    background-color: $green;
+    margin-bottom: 12px;
+    border-radius: 11px;
+  }
+  &__vegan {
+    color: $dark-charcol;
+    padding: 4px 8px;
+    background-color: $light-green;
+    border-radius: 11px;
+    margin-bottom: 12px;
+  }
+  &__paleo {
+    color: $dark-charcol;
+    padding: 4px 8px;
+    background-color: $yellow;
+    border-radius: 11px;
+    margin-bottom: 12px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 32px;
+  }
+  &__items {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $davys-gray;
+  }
+}
+.diet {
+  &__heading {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 51px;
+    font-weight: bold;
+    color: $dark-charcol;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    font-size: 18px;
+    color: $davys-gray;
+    line-height: 1.2;
+  }
+}
+
+.see {
+  &__recipes {
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 0px 96px 0px;
+  }
+  &__link {
+    color: $orange-light;
+    text-decoration: none;
+    border-bottom: 1px solid $orange-light;
+    padding-bottom: 2px;
+    transition: all 0.3s;
+  }
+}
+
+.testimonial {
+  &__section {
+    background-color: #fdf2e9;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+  }
+  &__box {
+    padding: 96px;
+  }
+  &__heading {
+    font-size: 16px;
+    color: $orange;
+    font-weight: bold;
+  }
+  &__subheading {
+    font-size: 44px;
+    color: $dark-charcol;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 96px;
+  }
+
+  &__reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 77px;
+    column-gap: 77px;
+  }
+  &__img {
+    border-radius: 50%;
+    height: 66px;
+    width: 66px;
+    margin-bottom: 12px;
+  }
+  &__text {
+    font-size: 18px;
+    color: $davys-gray;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  &__name {
+    font-size: 16px;
+    color: $dark-silver;
+  }
+  &__allpics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 0px;
+  }
+  &__gallery {
+    height: 206px;
+    width: 206px;
+  }
+}
+
+.pricing {
+  &__section {
+    padding: 154px;
+  }
+  &__heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: $orange;
+    letter-spacing: 0.75px;
+  }
+  &__subheading {
+    margin-bottom: 106px;
+    margin-top: 20px;
+    font-size: 44px;
+    color: $dark-charcol;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 60px;
+  }
+  &__monthly {
+    border-radius: 11px;
+    width: 75%;
+    background-color: $white;
+    border: 2px solid $bg-primay;
+    padding: 74px;
+    margin-left: 50px;
+  }
+  &__monthbg {
+    background-color: $bg-primay;
+  }
+  &__card {
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  &__title {
+    font-size: 20px;
+    color: $orange;
+    font-weight: bold;
+  }
+  &__price {
+    font-size: 62px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+    color: $dark-charcol;
+  }
+  &__text {
+    font-size: 16px;
+    color: $dark-silver;
+    margin-bottom: 45px;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  &__items {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    line-height: 1.2;
+    color: $davys-gray;
+  }
+  &__white {
+    color: $white;
+  }
+  &__btn {
+    margin-top: 50px;
+  }
+  &__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 9px;
+    border: none;
+    font-family: inherit;
+    transition: all 0.3s;
+    background-color: $orange-light;
+    color: $white;
+
+    &:hover {
+      background-color: $orange;
+    }
+  }
+  &__bottom {
+    font-size: 16px;
+    color: $davys-gray;
+    margin: 100px 154px;
+  }
+}
+.advantages {
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+  }
+  &__title {
+    font-size: 24px;
+    color: $dark-charcol;
+    font-weight: bold;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: $davys-gray;
+    padding-top: 28px;
+  }
+}
+.form {
+  &__section {
+    padding: 77px 154px 200px 154px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: $orange-light;
+    box-shadow: 0 38px 77px rgb(0 0 0 / 15%);
+    border-radius: 11px;
+    overflow: hidden;
+  }
+
+  &__imgbox {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(235, 151, 78, 0.35),
+        rgba(230, 125, 34, 0.35)
+      ),
+      url("../img/eating.jpg");
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+  }
+  &__text {
+    padding: 48px 64px 64px 64px;
+  }
+  &__heading {
+    font-size: 44px;
+    padding-bottom: 32px;
+    color: $light-grey;
+  }
+  &__subheading {
+    font-size: 18px;
+    color: $light-grey;
+    padding-bottom: 48px;
+  }
+  &__gridtwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 38px;
+    row-gap: 51px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__labels {
+    color: $light-grey;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  &__input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    font-size: 18px;
+    background-color: $bg-primay;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  }
+  &__btn {
+    background-color: $light-grey;
+    color: $bg-primay;
+    margin-top: 26px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+      background-color: $white;
+      color: $light-grey;
+    }
+  }
+}
+.footer {
+  &__section {
+    padding: 150px;
+    border-top: 1px solid #eee;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1.3fr;
+    column-gap: 102px;
+    row-gap: 154px;
+  }
+  &__logo {
+    margin-bottom: 50px;
+    height: 24px;
+    width: 166px;
+  }
+  &__para {
+    font-size: 15px;
+    line-height: 1.6;
+    color: $silver;
+  }
+  &__header {
+    font-size: 20px;
+    font-weight: bold;
+    color: $davys-gray;
+    margin-bottom: 42px;
+  }
+  &__location {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: $davys-gray;
+    text-decoration: none;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+  }
+  &__link {
+    color: $davys-gray;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+      color: $dark-charcol;
+    }
+  }
+}
