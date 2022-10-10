@@ -33,3 +33,10 @@ box-shadow: 0 12px 32px rgb(0 0 0 / 6%);
 2. To add modified files: git add ., the M symbol will still show up , until you commit.
 3. To commit use : git commit -m <message>
 4. Push the change to remote repository on github: git push OR git push origin <branch_name>
+
+Branching:
+
+1. A branch is a copy of your repository at the given point in time.
+2. You can create a branch with: git branch <branchname> , branch name should not have space and give a meaning ful short name
+3. To see list of branches: git branch , here in the list the one which has the \* at the left the current branch that you are in.
+4. To go to the created branch: git checkout <branchname>
