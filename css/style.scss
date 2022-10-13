@@ -4,7 +4,7 @@ $davys-gray: #555555;
 $taupe-gray: #888888;
 $dark-silver: #6f6f6f;
 $gray: #ddd;
-$get: #43240a;
+
 $orange: #cf711f;
 $green: #51cf66;
 $light-green: #94d82d;
@@ -14,14 +14,11 @@ $bg-primay: #fdf2e9;
 $light-grey: #45260a;
 $silver: #767676;
 
-$font-4xl: 8.6rem;
-$font-3xl: 50px;
-$font-2xl: 3.6rem;
+$font-2xl: 30px;
 $font-xl: 24px;
-$font-l: 2rem;
+$font-l: 20px;
 $font-m: 18px;
-$fonr-s: 1.6rem;
-$fonr-xs: 1.4rem;
+$font-s: 16px;
 $fonr-2xs: 12px;
 
 * {
@@ -51,7 +48,7 @@ $fonr-2xs: 12px;
     &__links {
       text-decoration: none;
       color: $dark-charcol;
-      font-weight: 550;
+      font-weight: bold;
       transition: all 0.3s;
       font-size: $font-m;
       &:hover {
@@ -83,12 +80,12 @@ $fonr-2xs: 12px;
     gap: 130px;
     &__title {
       padding: 40px 0px 40px 0px;
-      font-size: $font-3xl;
+      font-size: 50px;
       font-weight: 700;
       color: $dark-charcol;
     }
     &__para {
-      font-size: 20px;
+      font-size: $font-l;
       margin-bottom: 76px;
       line-height: 1.6;
       color: $davys-gray;
@@ -97,7 +94,7 @@ $fonr-2xs: 12px;
       padding: 16px 32px;
       background-color: $orange-light;
       color: $white;
-      font-size: 20px;
+      font-size: $font-l;
       border-radius: 9px;
       text-decoration: none;
       margin-right: 16px;
@@ -111,7 +108,7 @@ $fonr-2xs: 12px;
       padding: 16px 32px;
       background-color: $white;
       color: $davys-gray;
-      font-size: 20px;
+      font-size: $font-l;
       border-radius: 9px;
       text-decoration: none;
       margin-right: 16px;
@@ -138,7 +135,7 @@ $fonr-2xs: 12px;
     }
   }
   &__text {
-    font-size: 18px;
+    font-size: $font-m;
     color: $davys-gray;
     font-weight: bold;
   }
@@ -180,7 +177,7 @@ $fonr-2xs: 12px;
   }
   &__heading {
     display: block;
-    font-size: 16px;
+    font-size: $font-s;
     font-weight: 600;
     color: #cf711f;
     text-transform: uppercase;
@@ -206,13 +203,13 @@ $fonr-2xs: 12px;
     margin-bottom: 18px;
   }
   &__tertiaryheading {
-    font-size: 30px;
+    font-size: $font-2xl;
     line-height: 1;
     margin-bottom: 50px;
     color: $dark-charcol;
   }
   &__paragraph {
-    font-size: 19px;
+    font-size: $font-l;
     color: $davys-gray;
     line-height: 1.2;
   }
@@ -232,7 +229,7 @@ $fonr-2xs: 12px;
   }
   &__heading {
     display: block;
-    font-size: 16px;
+    font-size: $font-s;
     color: $orange;
     text-transform: uppercase;
     margin-bottom: 26px;
@@ -260,14 +257,14 @@ $fonr-2xs: 12px;
   }
   &__tag {
     display: flex;
-    font-size: 12px;
+    font-size: $fonr-2xs;
     font-weight: bold;
     column-gap: 4px;
     border-radius: 100px;
   }
   &__title {
-    font-size: 24px;
-    color: #333;
+    font-size: $font-xl;
+    color: $dark-charcol;
     font-weight: bold;
     margin-bottom: 32px;
   }
@@ -299,7 +296,7 @@ $fonr-2xs: 12px;
     gap: 32px;
   }
   &__items {
-    font-size: 18px;
+    font-size: $font-m;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -308,7 +305,7 @@ $fonr-2xs: 12px;
 }
 .diet {
   &__heading {
-    font-size: 30px;
+    font-size: $font-2xl;
     line-height: 1.2;
     margin-bottom: 51px;
     font-weight: bold;
@@ -319,7 +316,7 @@ $fonr-2xs: 12px;
     display: flex;
     flex-direction: column;
     gap: 26px;
-    font-size: 18px;
+    font-size: $font-m;
     color: $davys-gray;
     line-height: 1.2;
   }
@@ -328,7 +325,7 @@ $fonr-2xs: 12px;
 .see {
   &__recipes {
     text-align: center;
-    font-size: 18px;
+    font-size: $font-m;
     padding: 50px 0px 96px 0px;
   }
   &__link {
@@ -350,7 +347,7 @@ $fonr-2xs: 12px;
     padding: 96px;
   }
   &__heading {
-    font-size: 16px;
+    font-size: $font-s;
     color: $orange;
     font-weight: bold;
   }
@@ -375,13 +372,13 @@ $fonr-2xs: 12px;
     margin-bottom: 12px;
   }
   &__text {
-    font-size: 18px;
+    font-size: $font-m;
     color: $davys-gray;
     line-height: 1.6;
     padding: 10px;
   }
   &__name {
-    font-size: 16px;
+    font-size: $font-s;
     color: $dark-silver;
   }
   &__allpics {
@@ -400,7 +397,7 @@ $fonr-2xs: 12px;
     padding: 154px;
   }
   &__heading {
-    font-size: 16px;
+    font-size: $font-s;
     font-weight: bold;
     color: $orange;
     letter-spacing: 0.75px;
@@ -433,7 +430,7 @@ $fonr-2xs: 12px;
     padding-bottom: 16px;
   }
   &__title {
-    font-size: 20px;
+    font-size: $font-l;
     color: $orange;
     font-weight: bold;
   }
@@ -444,7 +441,7 @@ $fonr-2xs: 12px;
     color: $dark-charcol;
   }
   &__text {
-    font-size: 16px;
+    font-size: $font-s;
     color: $dark-silver;
     margin-bottom: 45px;
   }
@@ -455,7 +452,7 @@ $fonr-2xs: 12px;
     gap: 26px;
   }
   &__items {
-    font-size: 18px;
+    font-size: $font-m;
     display: flex;
     align-items: center;
     gap: 26px;
@@ -470,7 +467,7 @@ $fonr-2xs: 12px;
   }
   &__link {
     text-decoration: none;
-    font-size: 20px;
+    font-size: $font-l;
     font-weight: bold;
     padding: 16px 32px;
     border-radius: 9px;
@@ -485,7 +482,7 @@ $fonr-2xs: 12px;
     }
   }
   &__bottom {
-    font-size: 16px;
+    font-size: $font-s;
     color: $davys-gray;
     margin: 100px 154px;
   }
@@ -497,12 +494,12 @@ $fonr-2xs: 12px;
     column-gap: 20px;
   }
   &__title {
-    font-size: 24px;
+    font-size: $font-xl;
     color: $dark-charcol;
     font-weight: bold;
   }
   &__text {
-    font-size: 18px;
+    font-size: $font-m;
     line-height: 1.6;
     color: $davys-gray;
     padding-top: 28px;
@@ -541,7 +538,7 @@ $fonr-2xs: 12px;
     color: $light-grey;
   }
   &__subheading {
-    font-size: 18px;
+    font-size: $font-m;
     color: $light-grey;
     padding-bottom: 48px;
   }
@@ -557,7 +554,7 @@ $fonr-2xs: 12px;
   }
   &__labels {
     color: $light-grey;
-    font-size: 16px;
+    font-size: $font-s;
     margin-bottom: 10px;
     font-weight: bold;
   }
@@ -566,7 +563,7 @@ $fonr-2xs: 12px;
     border: none;
     outline: none;
     border-radius: 9px;
-    font-size: 18px;
+    font-size: $font-m;
     background-color: $bg-primay;
     box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
   }
@@ -575,7 +572,7 @@ $fonr-2xs: 12px;
     color: $bg-primay;
     margin-top: 26px;
     border-radius: 9px;
-    font-size: 18px;
+    font-size: $font-m;
     font-weight: bold;
     outline: none;
     border: none;
@@ -609,13 +606,13 @@ $fonr-2xs: 12px;
     color: $silver;
   }
   &__header {
-    font-size: 20px;
+    font-size: $font-l;
     font-weight: bold;
     color: $davys-gray;
     margin-bottom: 42px;
   }
   &__location {
-    font-size: 16px;
+    font-size: $font-s;
     margin-bottom: 24px;
     color: $davys-gray;
     text-decoration: none;
@@ -626,7 +623,7 @@ $fonr-2xs: 12px;
   }
   &__link {
     color: $davys-gray;
-    font-size: 16px;
+    font-size: $font-s;
     margin-bottom: 20px;
     text-decoration: none;
     transition: all 0.3s;
