@@ -66,4 +66,5 @@ Note: a push can have one or more commits and a branch can have multiple push wi
   -then type git add .
   -git commit -m 'comment'
   -git push
-  - type git pull
+  - go to github and click on pull requests tab then click on new pull request then click on the source branch you fixed and select the the main branch which is the parent to which branch i want to merg to . check if whatever you chaned is right or not.
+    if everything is right then click on create pull request. then add the person you want to review it.
