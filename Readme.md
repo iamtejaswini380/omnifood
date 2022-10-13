@@ -66,4 +66,4 @@ Note: a push can have one or more commits and a branch can have multiple push wi
   -then type git add .
   -git commit -m 'comment'
   -git push
-  -git pull
+  - type git pull
