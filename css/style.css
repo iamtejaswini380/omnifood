@@ -112,9 +112,9 @@
 .custumers__text {
   font-size: 18px;
   color: #555555;
-  font-weight: 600;
+  font-weight: bold;
 }
-.custumers__text span {
+.custumers__number {
   color: #cf711f;
 }
 
