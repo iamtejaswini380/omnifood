@@ -1,3 +1,7 @@
+# Learning HTML, CSS
+
+My github page: https://iamtejaswini380.github.io/omnifood/
+
 # Command to convert scss to css
 
 npx sass ./css/style.scss ./css/style.css
