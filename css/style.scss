@@ -137,10 +137,10 @@ $fonr-2xs: 12px;
   &__text {
     font-size: $font-m;
     color: $davys-gray;
-    font-weight: 600;
-    & span {
-      color: $orange;
-    }
+    font-weight: bold;
+  }
+  &__number {
+    color: $orange;
   }
 }
 

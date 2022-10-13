@@ -56,3 +56,15 @@ Branching:
 - git push <-- to push your commits to remote.
 
 Note: a push can have one or more commits and a branch can have multiple push with commits.
+
+### working on issues
+
+- go to the issue on github page then click on the issue link , read aall the issues addressed and then start fixing.
+  -then click on create branch ,select the branch name and click on create branch.
+  -come to the terminal of my computer, type git fetch origin-if want to know in which branh am i am then type git branch in terminal.
+  -checkout to the new branch i created and work on that branch git checkout branch name
+  -then type git add .
+  -git commit -m 'comment'
+  -git push
+  - go to github and click on pull requests tab then click on new pull request then click on the source branch you fixed and select the the main branch which is the parent to which branch i want to merg to . check if whatever you chaned is right or not.
+    if everything is right then click on create pull request. then add the person you want to review it.
