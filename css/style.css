@@ -25,7 +25,7 @@
 .header .menu__links {
   text-decoration: none;
   color: #333333;
-  font-weight: 550;
+  font-weight: bold;
   transition: all 0.3s;
   font-size: 18px;
 }
@@ -180,7 +180,7 @@
   color: #333333;
 }
 .how__paragraph {
-  font-size: 19px;
+  font-size: 20px;
   color: #555555;
   line-height: 1.2;
 }
@@ -233,7 +233,7 @@
 }
 .meal__title {
   font-size: 24px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
   margin-bottom: 32px;
 }
